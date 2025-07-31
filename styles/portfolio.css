@@ -199,15 +199,31 @@ footer textarea{
 
 }
 /*Responsive media query*/
-.hide{
-  display: none;
-}
 @media  screen and (max-width:576px) {
   .skills-container,
   .resume-container,
    footer,
-   .about-iteams{
+   .about-iteams,
+   .banner,
+   nav,
+   nav > ul
+   {
     flex-direction: column;
+  }
+  nav > ul{
+    gap:10px;
+  }
+  .btn-primary{
+    margin-bottom: 15px;
+  }
+  .banner{
+margin:20px ;
+  }
+  .banner-profile-pic{
+    width: 100%;
+  }
+  .header{
+    background-image: none;
   }
   footer, .about{
     padding: 20px;
