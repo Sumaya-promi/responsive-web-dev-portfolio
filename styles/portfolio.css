@@ -213,6 +213,11 @@ footer textarea{
   nav > ul{
     gap:10px;
   }
+  .nav-title{
+    margin-left: 0;
+
+  }
+
   .btn-primary{
     margin-bottom: 15px;
   }
